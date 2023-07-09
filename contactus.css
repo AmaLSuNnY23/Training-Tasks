@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    background-image: url('https://images.pexels.com/photos/17384763/pexels-photo-17384763/free-photo-of-hedge-bedstraw-texture-pattern.jpeg?auto=compress&cs=tinysrgb&w=600');
+    width: 100%;
+    height: 700px;
+    
+}
+
+.content
+{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(50, 123, 188);
+    margin-left: 550px;
+    margin-top: 200px;
+    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+.text
+{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgb(251, 250, 250);
+}
+.text1
+{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgb(248, 245, 245);
+}
+.word
+{
+    color: rgb(250, 249, 249);
+}
+#log
+{ 
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#log:hover{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: linear-gradient(to right, #9a4d4d, #8c52ff);
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+
+}

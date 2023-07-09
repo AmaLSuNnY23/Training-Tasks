@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Registration from</title>
+    <link rel="stylesheet" href="register3.css">
+</head>
+
+<body >
+    
+    <form action="#" method="post" >
+        <div class="content">
+        <h1 align="center"class="h1">Registration Form</h1>
+        <label class="l1">First name</label>
+        <label class="l2" >Last Name</label><br>
+        <input class="fn" type="text" placeholder="First Name" required>
+        
+        <input class="ln" type="text" placeholder="Last Name"required><br>
+        <label class="l1" >Date Of Birth</label>
+        <label class="l3">Age</label><br>
+      
+        <input class="dob" type="date" required >
+        
+        <input class="age" type="text" placeholder="Age"required><br>
+        <label class="l1">Gender</label><br>
+        <label class="male" >Male:</label>
+        <input class="male1"type="radio" id="male" name="gender" value="male">
+        <label class="female" >Female:</label>
+        <input class="female1"type="radio"id="male" name="gender" value="male"required>
+        <label class="other">Other:</label>
+        <input class="other1"type="radio"id="other" name="gender" value="other"required><br><br>
+        
+        <label  class="l1" >Phone Number</label><br>
+        <input class="phn" type="text" maxlength="10" placeholder="Phone Number" required><br>
+        <label class="l1" >Email Address</label><br>
+        <input class="email"type="email" placeholder="Email ID"required><br>
+        <label class="l1">State</label><br>
+        <select class="state"required>
+            <option>choose</option>
+            <option>Ernakulam</option>
+            <option>Tamilnadu</option>
+            <option>Goa</option>
+            <option>karnataka</option>
+        </select><br><br>
+        <label class="l1" >City</label><br>
+        <select class="city"required>
+            <option>choose</option>
+            <option>Kochi</option>
+            <option>Calicut</option>
+            <option>Chennai</option>
+            <option>Coimbatore</option>
+            <option>Banglore</option>
+            <option>Mysore</option>
+            <option>Old goa</option>
+            <option>ponda</option>
+        </select><br><br>
+       <label class="l1">Username</label><br>
+        <input class="un" type="text" placeholder="Username"required><br>
+       <label class="l1">Password</label><br>
+        <input class="pw"type="text"  pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" required placeholder="Password"><br>
+        <label class="l1">confirm password</label><br>
+        <input class="cpw"type="text"  pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" required placeholder="Confirm password"><br>
+        <input class="btn" type="Button" value="Register" >
+
+
+
+    </div>
+
+    </form>
+    
+</body>
+</html>
